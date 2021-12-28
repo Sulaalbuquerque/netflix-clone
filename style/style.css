@@ -1,0 +1,107 @@
+:root{
+    --red: hsl(0, 100%, 50%);
+    --black: hsl(0, 0%, 0%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 1rem;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+/* Filme principal */
+
+.main-movie{
+    font-size: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('../img/capa-house.jpg');
+
+    height: 35rem;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .container{
+    width: 70%;
+}
+
+.container{
+    margin-left: 2rem;
+}
+
+.title{
+    margin-top: 15%;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.description{
+    margin-bottom: 3rem;
+    margin-top: .8rem;
+}
+
+main a{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin-right: 1.5rem;
+    font-size: .7rem;
+    cursor: pointer;
+    transition: .3s ease all;
+    text-decoration: none;
+}
+
+main a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+a i{
+    margin-right: .5rem;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-films{
+    margin-top: 2rem;
+}
+
+.information{
+    margin-top: 2rem;
+}
