@@ -81,6 +81,7 @@ main a{
     cursor: pointer;
     transition: .3s ease all;
     text-decoration: none;
+    margin-top: 2rem;
 }
 
 main a:hover{
